@@ -4,10 +4,10 @@ Just a little program that polls the [riak http stats endpoint](http://docs.bash
 
 Why Go? Because it compiles to a binary :)
 
-## Usage
+## usage
 
--nodename="riak": Riak node name
--riak_host="127.0.0.1": Riak host
--riak_http_port=8098: Riak HTTP port
--statsd_host="127.0.0.1": Statsd host
--statsd_port=8125: Statsd host
+* -nodename="riak": Riak node name
+* -riak_host="127.0.0.1": Riak host
+* -riak_http_port=8098: Riak HTTP port
+* -statsd_host="127.0.0.1": Statsd host
+* -statsd_port=8125: Statsd host
